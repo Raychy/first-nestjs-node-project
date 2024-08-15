@@ -1,0 +1,3 @@
+// Get  sent request
+
+GET http://localhost:3001
