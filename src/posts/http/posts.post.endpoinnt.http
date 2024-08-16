@@ -1,0 +1,20 @@
+POST http://localhost:3001/posts
+Content-Type: application/json
+
+
+
+{
+    "title": "This is a title",
+    "postType": "post",
+    "slug": "new-title",
+    "status": "draft",
+    "content": "testing content",
+    "schema": "",
+    "featuredImageUrl": "https://www.shutterstock.com/image-photo/smiling-african-senior-woman-face-260nw-2058899225.jpg",
+    "publishedOn": "2024-08-16T14:08:52.480Z",
+    "tags": ["test1", "test2" ],
+    "metaOptions": [{
+        "key": "testkey",
+        "value":  100
+    }]
+}
